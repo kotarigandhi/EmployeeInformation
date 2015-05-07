@@ -1,0 +1,290 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 17, 2015, 11:13:12 AM
+    Author     : gandhikotari
+*/
+
+body{
+    background:url(../img/satinweave.png);
+    margin:0;
+    padding:0;
+}
+h1-h6,a,p,li,div,input,label{
+    font-family: 'Abel',sans-serif;
+}
+.website{
+    width:1000px;
+    height: auto;
+    margin:0 auto;
+    position: relative;
+    border:solid 3px #689F38;
+    border-radius: 5px;
+}
+.header{
+    float:left; 
+    width: 1000px;
+
+}
+.logo{
+    float:left;
+    width: 300px;
+    position: relative;
+
+}
+.logo h3{
+    margin-top:20px;
+    margin-bottom:0;
+    color:inherit;
+    text-shadow:  0px 1px 1px #6d6d6d;
+    font-size:40px;
+    font-weight: normal;
+}
+.logo h5{
+    margin:0;
+    margin-left:110px;
+}
+
+.contact-info{
+    float:right;
+    margin-top:14px;
+    margin-right: 30px;
+    width: 300px;
+    height: 85px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: inset 0px 0px 12px #6d6d6d;
+}
+.navbar{
+    width: 1000px;
+    height: auto;
+    float:left;
+    padding:0px;
+    margin-top:20px;
+    
+    border-radius: 2px;
+    background-color: #689F38;
+}
+.navbar ul{
+    margin:0;
+    padding:0px;
+}
+.navbar ul li{
+   
+    text-align: center;
+    list-style-type: none;
+    float:left;
+    border-right: dashed 1px #ededed;
+    text-align: center;
+    position: relative;
+}
+.navbar ul li a{
+    padding: 12px 30px 12px 30px;
+    text-decoration: none;
+    display: block;
+    color:#fff;
+    font-size: 18px;
+    -webkit-transition: all ease-in 160ms;
+
+}
+.navbar ul ul{
+    margin:0;
+    padding:0;
+    position: absolute;
+    visibility: hidden;
+    background-color: #689F38;
+    top: 50px;
+    left:0px;
+
+}
+
+.navbar ul ul li{
+    display: block;
+    width: 200px;
+    border:dashed 1px #adadad;
+    border-top:none;
+    top:-7px;
+}
+.navbar ul li:hover ul{
+    visibility: visible;
+    border-bottom: none;
+
+}
+.navbar ul li a:hover ul{
+    visibility: visible;
+}
+.navbar ul li a:hover{
+    color:#fff;
+    background-color:#558B2F;
+}
+
+
+.slider-show{
+    float: left;
+    width:1000px;
+    height: 300px;
+    margin-top:20px;
+    margin-bottom: 10px;    
+    border:solid 1px #cdcdcd;
+    box-shadow: 0px 35px 30px -40px #313131;
+    background-color:#cfcfcf;
+}
+.container{
+    float:left;
+    width: 1000px;
+    height:auto;
+    margin-top:10px;
+
+}
+.flash-cards{
+    float:left;
+    height: auto;
+}
+.div1{
+
+    float:left;
+    width:300px;
+    height: auto;
+    border-top:solid 6px #59268C;
+    border-bottom: dashed 1px #6d6d6d;
+}
+.div1 h4{
+
+    color:#59268C;
+    margin-top:10px;
+    font-size: 24px;
+    margin-left:0px;
+    margin-bottom: 2px;
+
+}
+.div1 p,.div2 p,.div3 p{
+    text-align: justify;
+    font-size: 14px;
+    line-height: 23px;
+    font-family: 'Ubuntu',sans-serif;
+}
+.div1 a,.div2 a,.div3 a{
+    color:#59268C;
+    text-decoration: dashed;
+    font-weight: bold;
+    font-size: 16px;
+}
+.div2{
+    float:left;
+    width:300px;
+    margin-left:50px;
+    height: auto;
+    border-top:solid 6px #689F38;
+    border-bottom: dashed 1px #6d6d6d
+
+}
+.div2 h4{
+    color:#689F38;
+    margin-top:10px;
+    font-size: 24px;
+    margin-left:0px;
+    margin-bottom: 2px;
+}
+.div3{
+    float:left;
+    width:300px;
+    margin-left:50px;
+    height: auto;
+    border-top:solid 6px #F57C00;
+    border-bottom: dashed 1px #6d6d6d
+}
+.div3 h4{
+    color: #F57C00;
+    margin-top:10px;
+    font-size: 24px;
+    margin-left:0px;
+    margin-bottom: 2px;
+}
+
+.reivews{
+    margin-top:20px;
+    float:left;
+    width:300px;
+    height: auto;
+    border-right: dashed 1px #6d6d6d;
+}
+.reivews h1{
+    margin-top:3px;
+    color:#558B2F;
+}
+.welcome{
+    float:left;
+    width:600px;
+    height: auto;
+    margin-left:30px;
+}
+.welcome h1{
+    color:#59268C;
+}
+.circle1,.circle2,.circle3{
+    float:left;
+    width:30px;
+    height: 30px;
+    border:solid 1px #6d6d6d;
+    border-radius: 50%;
+    margin-right:20px;
+    margin-top:-2px; 
+    -webkit-transition: all ease-out 200ms;
+}
+.product1:hover>.circle1{
+    background-color:#59268C;
+}
+.product2:hover>.circle2{
+    background-color:#E65100;
+}
+.product3:hover>.circle3{
+    background-color:#689F38;
+}
+
+.welcome p{
+    margin-left:55px;
+    font-family: 'Ubuntu',sans-serif;
+    font-size: 13px;
+    line-height: 23px;
+}
+
+.footer-full{
+    float:left;
+    margin-top:20px;
+    width: 100%;
+    height: 60px;
+    background-color:#313131;
+}
+.footer{
+    width:1000px;
+    height: 60px;
+    margin:0 auto 0;
+}
+.footer ul{
+    margin:0;
+    padding:0;
+}
+.footer ul li{
+    float:left;
+    margin-top:14px;
+    list-style: none;
+    position: relative;
+    text-align: center;
+}
+.footer ul li a{
+    text-decoration: none;
+    color:#fff;
+    margin-left:20px;
+}
+.footer ul li a:hover{
+    border-bottom: 1px solid;
+    color:#558B2F;
+    
+}
+.copy{
+    float:right;
+    color:#fff;
+}
